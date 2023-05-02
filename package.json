@@ -1,0 +1,21 @@
+{
+  "name": "vitest-browser-bug-ts",
+  "version": "1.0.0",
+  "description": "A test project to reproduce a bug in vitest-browser regarding TypeScript",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "test": "vitest",
+    "test:browser": "vitest --browser \"chrome\""
+  },
+  "keywords": [],
+  "author": "Frank Weindel",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitest/browser": "^0.30.1",
+    "typescript": "^5.0.3",
+    "vite": "^4.0.4",
+    "vitest": "^0.30.1",
+    "webdriverio": "^8.9.0"
+  }
+}
